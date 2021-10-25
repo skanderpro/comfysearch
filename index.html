@@ -75,16 +75,21 @@
     <div class="wrapper-boxed">
         <div class="site-wrapper">
             <div class="col-md-12 nopadding">
-                <div class="header-section style1 pin-style">
+                <div class="header-section style1 pin-style" data-component="HeaderSection">
                     <div class="container">
                         <div class="mod-menu">
                             <div class="row">
                                 <div class="col-sm-2">
-                                    <a href="index.html" title="" class="logo style-2 mar-4"> <img src="images/logo/logo.png" alt=""> </a>
+                                    <a href="index.html" title="" class="logo style-2 mar-4" data-component="Logo"> <img src="images/logo/logo.png" alt=""> </a>
                                 </div>
                                 <div class="col-sm-10">
-                                    <div class="main-nav">
+                                    <div class="main-nav" data-component="MainNav">
+                                        <ul class="nav navbar-nav top-nav">
 
+                                            <li class="visible-xs menu-icon">
+                                                <a href="javascript:void(0)" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false"> <i aria-hidden="true" class="fa fa-bars"></i> </a>
+                                            </li>
+                                        </ul>
                                         <div id="menu" class="collapse">
                                             <ul class="nav navbar-nav">
                                                 <li class="right active"> <a href="index.html">Home</a> <span class="arrow"></span>
@@ -387,7 +392,7 @@
             <div class="clearfix"></div>
 
             <!-- START REVOLUTION SLIDER 5.0 -->
-            <div class="slide-tmargin">
+            <div class="slide-tmargin" data-component="SlideTmargin">
                 <div class="slidermaxwidth">
                     <div class="rev_slider_wrapper">
                         <!-- START REVOLUTION SLIDER 5.0 auto mode -->
@@ -418,7 +423,7 @@
 
                                     <!-- LAYER NR. 4 -->
                                     <div class="tp-caption sbut2 btn-round" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['550','350','370','300']" data-speed="800" data-start="2500" data-transform_in="y:bottom;s:1500;e:Power3.easeOut;"
-                                        data-transform_out="opacity:0;s:3000;e:Power4.easeIn;s:3000;e:Power4.easeIn;" data-endspeed="300" data-captionhidden="off" style="z-index: 6"> <a href="#">Get Started now!</a> </div>
+                                        data-transform_out="opacity:0;s:3000;e:Power4.easeIn;s:3000;e:Power4.easeIn;" data-endspeed="300" data-captionhidden="off" style="z-index: 6"> <a href="#" data-component="GetStartedNow">Get Started now!</a> </div>
                                 </li>
 
                                 <!-- SLIDE  -->
@@ -445,7 +450,7 @@
 
                                     <!-- LAYER NR. 4 -->
                                     <div class="tp-caption sbut2 btn-round" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['550','350','370','300']" data-speed="800" data-start="2500" data-transform_in="y:bottom;s:1500;e:Power3.easeOut;"
-                                        data-transform_out="opacity:0;s:3000;e:Power4.easeIn;s:3000;e:Power4.easeIn;" data-endspeed="300" data-captionhidden="off" style="z-index: 6"> <a href="#">Get Started now!</a> </div>
+                                        data-transform_out="opacity:0;s:3000;e:Power4.easeIn;s:3000;e:Power4.easeIn;" data-endspeed="300" data-captionhidden="off" style="z-index: 6"> <a href="#" data-component="GetStartedNow">Get Started now!</a> </div>
                                 </li>
 
                                 <!-- SLIDE  -->
@@ -472,7 +477,7 @@
 
                                     <!-- LAYER NR. 4 -->
                                     <div class="tp-caption sbut2 btn-round" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['550','350','370','300']" data-speed="800" data-start="2500" data-transform_in="y:bottom;s:1500;e:Power3.easeOut;"
-                                        data-transform_out="opacity:0;s:3000;e:Power4.easeIn;s:3000;e:Power4.easeIn;" data-endspeed="300" data-captionhidden="off" style="z-index: 6"> <a href="#">Get Started now!</a> </div>
+                                        data-transform_out="opacity:0;s:3000;e:Power4.easeIn;s:3000;e:Power4.easeIn;" data-endspeed="300" data-captionhidden="off" style="z-index: 6"> <a href="#" data-component="GetStartedNow">Get Started now!</a> </div>
                                 </li>
 
 
@@ -486,561 +491,562 @@
             <div class="clearfix"></div>
             <!-- END OF SLIDER WRAPPER -->
 
-            <div class="search-box ">
+            <div class="search-box " data-component="SearchBox">
                 <div class="content">
                     <div class="form-control">
-                        <input type="text" placeholder="Type to search" />
+                        <input type="text" placeholder="Type to search" data-component="TypeToSearch" />
                         <a href="#" class="search-btn mar-1"><i aria-hidden="true" class="fa fa-search"></i></a> </div>
 
                 </div>
-                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
 
-                <section class="sec-padding section-light section-bgimg-7">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="sec-title-container text-center">
-                                    <h5 class="font-weight-4 less-mar-1 line-height-4 text-primary opacity-9">Meet Our Team</h5>
-                                    <h2 class="font-weight-6 less-mar-1 line-height-5 color-violet">Professional Expertises</h2>
-                                    <div class="ce-title-line"></div>
-                                    <h6 class="ce-sub-text raleway opacity-7">Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula Etiam .</h6>
+            <section class="sec-padding section-light section-bgimg-7" data-component="SectionBgimg7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="sec-title-container text-center">
+                                <h5 class="font-weight-4 less-mar-1 line-height-4 text-primary opacity-9">Meet Our Team</h5>
+                                <h2 class="font-weight-6 less-mar-1 line-height-5 color-violet">Professional Expertises</h2>
+                                <div class="ce-title-line"></div>
+                                <h6 class="ce-sub-text raleway opacity-7">Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula Etiam .</h6>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <!--end title-->
+                        <div class="car-gallery">
+
+                            <div class="ce-feature-box-6">
+                                <div class="main-box" data-component="MainBox">
+                                    <div class="img-box">
+                                        <div class="overlay">
+                                            <p class="small-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
+                                            <br/>
+                                            <ul class="sc-icons">
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <img src="http://via.placeholder.com/550x700" alt="" class="img-responsive" /> </div>
+                                    <div class="text-box text-center">
+                                        <h5 class="nopadding title">Matthew</h5>
+                                        <p class="subtext" data-component="Subtext">Founder and CEO</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end item-->
+
+                            <div class="ce-feature-box-6">
+                                <div class="main-box" data-component="MainBox">
+                                    <div class="img-box">
+                                        <div class="overlay">
+                                            <p class="small-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
+                                            <br/>
+                                            <ul class="sc-icons">
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <img src="http://via.placeholder.com/550x700" alt="" class="img-responsive" /> </div>
+                                    <div class="text-box text-center">
+                                        <h5 class="nopadding title">Matthew</h5>
+                                        <p class="subtext" data-component="Subtext">Founder and CEO</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end item-->
+                            <div class="ce-feature-box-6">
+                                <div class="main-box" data-component="MainBox">
+                                    <div class="img-box">
+                                        <div class="overlay">
+                                            <p class="small-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
+                                            <br/>
+                                            <ul class="sc-icons">
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <img src="http://via.placeholder.com/550x700" alt="" class="img-responsive" /> </div>
+                                    <div class="text-box text-center">
+                                        <h5 class="nopadding title">Matthew</h5>
+                                        <p class="subtext" data-component="Subtext">Founder and CEO</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end item-->
+                            <div class="ce-feature-box-6">
+                                <div class="main-box" data-component="MainBox">
+                                    <div class="img-box">
+                                        <div class="overlay">
+                                            <p class="small-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
+                                            <br/>
+                                            <ul class="sc-icons">
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <img src="http://via.placeholder.com/550x700" alt="" class="img-responsive" /> </div>
+                                    <div class="text-box text-center">
+                                        <h5 class="nopadding title">Matthew</h5>
+                                        <p class="subtext" data-component="Subtext">Founder and CEO</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end item-->
+                            <div class="ce-feature-box-6">
+                                <div class="main-box" data-component="MainBox">
+                                    <div class="img-box">
+                                        <div class="overlay">
+                                            <p class="small-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
+                                            <br/>
+                                            <ul class="sc-icons">
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <img src="http://via.placeholder.com/550x700" alt="" class="img-responsive" /> </div>
+                                    <div class="text-box text-center">
+                                        <h5 class="nopadding title">Matthew</h5>
+                                        <p class="subtext" data-component="Subtext">Founder and CEO</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end item-->
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            <!-- end section -->
+
+
+
+
+            <section class="sec-padding section-bgimg-3" data-component="SectionBgimg3">
+                <div class="container">
+                    <div class="row slider-btn-5">
+                        <div class="col-md-5" data-component="InfoLeft">
+                            <div class="ce-feature-box-4 text-left">
+                                <div class="icon-plain-small left dark icon"><span class="icon-camera"></span></div>
+                                <div class=" text-box-right text-left">
+                                    <h5 class="title font-weight-5">Fully Responsive</h5>
+                                    <p>Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus.</p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
-                            <!--end title-->
-                            <div class="car-gallery">
-
-                                <div class="ce-feature-box-6">
-                                    <div class="main-box">
-                                        <div class="img-box">
-                                            <div class="overlay">
-                                                <p class="small-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
-                                                <br/>
-                                                <ul class="sc-icons">
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <img src="http://via.placeholder.com/550x700" alt="" class="img-responsive" /> </div>
-                                        <div class="text-box text-center">
-                                            <h5 class="nopadding title">Matthew</h5>
-                                            <p class="subtext">Founder and CEO</p>
-                                        </div>
-                                    </div>
+                            <br/>
+                            <div class=" divider-line solid light"></div>
+                            <br/>
+                            <div class="ce-feature-box-4 text-left">
+                                <div class="icon-plain-small left dark icon"><span class="icon-bike"></span></div>
+                                <div class=" text-box-right text-left">
+                                    <h5 class="title font-weight-5">Beautiful Graphics</h5>
+                                    <p>Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus.</p>
                                 </div>
-                                <!--end item-->
-
-                                <div class="ce-feature-box-6">
-                                    <div class="main-box">
-                                        <div class="img-box">
-                                            <div class="overlay">
-                                                <p class="small-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
-                                                <br/>
-                                                <ul class="sc-icons">
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <img src="http://via.placeholder.com/550x700" alt="" class="img-responsive" /> </div>
-                                        <div class="text-box text-center">
-                                            <h5 class="nopadding title">Matthew</h5>
-                                            <p class="subtext">Founder and CEO</p>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <br/>
+                            <div class=" divider-line solid light"></div>
+                            <br/>
+                            <div class="ce-feature-box-4 text-left">
+                                <div class="icon-plain-small left dark icon"><span class="icon-basket"></span></div>
+                                <div class=" text-box-right text-left">
+                                    <h5 class="title font-weight-5">Shop Pages</h5>
+                                    <p>Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus.</p>
                                 </div>
-                                <!--end item-->
-                                <div class="ce-feature-box-6">
-                                    <div class="main-box">
-                                        <div class="img-box">
-                                            <div class="overlay">
-                                                <p class="small-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
-                                                <br/>
-                                                <ul class="sc-icons">
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <img src="http://via.placeholder.com/550x700" alt="" class="img-responsive" /> </div>
-                                        <div class="text-box text-center">
-                                            <h5 class="nopadding title">Matthew</h5>
-                                            <p class="subtext">Founder and CEO</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--end item-->
-                                <div class="ce-feature-box-6">
-                                    <div class="main-box">
-                                        <div class="img-box">
-                                            <div class="overlay">
-                                                <p class="small-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
-                                                <br/>
-                                                <ul class="sc-icons">
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <img src="http://via.placeholder.com/550x700" alt="" class="img-responsive" /> </div>
-                                        <div class="text-box text-center">
-                                            <h5 class="nopadding title">Matthew</h5>
-                                            <p class="subtext">Founder and CEO</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--end item-->
-                                <div class="ce-feature-box-6">
-                                    <div class="main-box">
-                                        <div class="img-box">
-                                            <div class="overlay">
-                                                <p class="small-text text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. </p>
-                                                <br/>
-                                                <ul class="sc-icons">
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <img src="http://via.placeholder.com/550x700" alt="" class="img-responsive" /> </div>
-                                        <div class="text-box text-center">
-                                            <h5 class="nopadding title">Matthew</h5>
-                                            <p class="subtext">Founder and CEO</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--end item-->
-
                             </div>
                         </div>
-                    </div>
-                </section>
-                <div class="clearfix"></div>
-                <!-- end section -->
+                        <!--end item-->
 
-
-
-
-                <section class="sec-padding section-bgimg-3">
-                    <div class="container">
-                        <div class="row slider-btn-5">
-                            <div class="col-md-5">
-                                <div class="ce-feature-box-4 text-left">
-                                    <div class="icon-plain-small left dark icon"><span class="icon-camera"></span></div>
-                                    <div class=" text-box-right text-left">
-                                        <h5 class="title font-weight-5">Fully Responsive</h5>
-                                        <p>Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus.</p>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                                <br/>
-                                <div class=" divider-line solid light"></div>
-                                <br/>
-                                <div class="ce-feature-box-4 text-left">
-                                    <div class="icon-plain-small left dark icon"><span class="icon-bike"></span></div>
-                                    <div class=" text-box-right text-left">
-                                        <h5 class="title font-weight-5">Beautiful Graphics</h5>
-                                        <p>Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus.</p>
-                                    </div>
-                                </div>
-                                <div class="clearfix"></div>
-                                <br/>
-                                <div class=" divider-line solid light"></div>
-                                <br/>
-                                <div class="ce-feature-box-4 text-left">
-                                    <div class="icon-plain-small left dark icon"><span class="icon-basket"></span></div>
-                                    <div class=" text-box-right text-left">
-                                        <h5 class="title font-weight-5">Shop Pages</h5>
-                                        <p>Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--end item-->
-
-                            <div class="col-md-7">
-                                <div class="ce-feature-box-5">
-                                    <div id="owl-demo18" class="owl-carousel owl-theme">
-                                        <div class="item">
-                                            <div class="text-box">
-                                                <div class="col-sm-12 nopadding">
-                                                    <div class="sec-title-container less-padding-6 text-left">
-                                                        <h2 class="font-weight-6 less-mar-1 text-white line-height-4 color-green ">Who we are and what we do for Your Business</h2>
-                                                    </div>
+                        <div class="col-md-7" data-component="InfoRight">
+                            <div class="ce-feature-box-5">
+                                <div id="owl-demo18" class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <div class="text-box">
+                                            <div class="col-sm-12 nopadding">
+                                                <div class="sec-title-container less-padding-6 text-left">
+                                                    <h2 class="font-weight-6 less-mar-1 text-white line-height-4 color-green ">Who we are and what we do for Your Business</h2>
                                                 </div>
-                                                <div class="clearfix"></div>
-                                                <!--end title-->
-                                                <br/>
-                                                <h6 class="raleway text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis elite justo . </h6>
-                                                <br/>
-                                                <p class="text-white">Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus.</p>
-                                                <br/>
-                                                <br/>
                                             </div>
+                                            <div class="clearfix"></div>
+                                            <!--end title-->
+                                            <br/>
+                                            <h6 class="raleway text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis elite justo . </h6>
+                                            <br/>
+                                            <p class="text-white">Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus.</p>
+                                            <br/>
+                                            <br/>
                                         </div>
-                                        <!--end carousel item-->
-
-                                        <div class="item">
-                                            <div class="text-box">
-                                                <div class="col-sm-12 nopadding">
-                                                    <div class="sec-title-container less-padding-6 text-left">
-                                                        <h2 class="font-weight-6 less-mar-1 text-white line-height-4 color-green ">Who we are and what we do for Your Business</h2>
-                                                    </div>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <!--end title-->
-                                                <br/>
-                                                <h6 class="raleway text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis elite justo . </h6>
-                                                <br/>
-                                                <p class="text-white">Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus.</p>
-                                                <br/>
-                                                <br/>
-                                            </div>
-                                        </div>
-                                        <!--end carousel item-->
-
                                     </div>
-                                    <!--end carousel-->
-                                </div>
-                                <!--end item-->
+                                    <!--end carousel item-->
 
+                                    <div class="item">
+                                        <div class="text-box">
+                                            <div class="col-sm-12 nopadding">
+                                                <div class="sec-title-container less-padding-6 text-left">
+                                                    <h2 class="font-weight-6 less-mar-1 text-white line-height-4 color-green ">Who we are and what we do for Your Business</h2>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <!--end title-->
+                                            <br/>
+                                            <h6 class="raleway text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis elite justo . </h6>
+                                            <br/>
+                                            <p class="text-white">Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus.</p>
+                                            <br/>
+                                            <br/>
+                                        </div>
+                                    </div>
+                                    <!--end carousel item-->
+
+                                </div>
+                                <!--end carousel-->
                             </div>
                             <!--end item-->
 
                         </div>
+                        <!--end item-->
+
                     </div>
-                </section>
-                <div class="clearfix"></div>
-                <!-- end section -->
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            <!-- end section -->
 
-                <section class="section-light sec-padding section-bgimg-12">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="ce-feature-box-19">
-                                    <div class="icon-plain-medium center icon"><span class="pe-7s-drop"></span></div>
-                                    <br/>
-                                    <h5 class="title font-weight-5 color-violet">Fully Responsive</h5>
-                                    <p class="content">Vestibulum ante ipsum primis sit amet justo elit faucibus orci luctus ultrices posuere cubilia Curae.</p>
-                                    <div class="clearfix"></div>
-                                    <br/>
-                                    <a class="read-more uppercase" href="#"><i class="fa fa-angle-right"></i> &nbsp; Read more</a> </div>
-                            </div>
-                            <!--end item-->
-
-                            <div class="col-md-4">
-                                <div class="ce-feature-box-19 primary">
-                                    <div class="icon-plain-medium center icon"><span class="pe-7s-switch"></span></div>
-                                    <br/>
-                                    <h5 class="title font-weight-5 color-green">Classic Styles</h5>
-                                    <p class="content">Vestibulum ante ipsum primis sit amet justo elit faucibus orci luctus ultrices posuere cubilia Curae.</p>
-                                    <div class="clearfix"></div>
-                                    <br/>
-                                    <a class="read-more white uppercase" href="#"><i class="fa fa-angle-right"></i> &nbsp; Read more</a> </div>
-                            </div>
-                            <!--end item-->
-
-                            <div class="col-md-4">
-                                <div class="ce-feature-box-19">
-                                    <div class="icon-plain-medium center icon"><span class="pe-7s-mouse"></span></div>
-                                    <br/>
-                                    <h5 class="title font-weight-5 color-violet">Secure Services</h5>
-                                    <p class="content">Vestibulum ante ipsum primis sit amet justo elit faucibus orci luctus ultrices posuere cubilia Curae.</p>
-                                    <div class="clearfix"></div>
-                                    <br/>
-                                    <a class="read-more uppercase" href="#"><i class="fa fa-angle-right"></i> &nbsp; Read more</a> </div>
-                            </div>
-                            <!--end item-->
-
+            <section class="section-light sec-padding section-bgimg-12" data-component="SectionBgimg12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4" data-component="ContentFirst">
+                            <div class="ce-feature-box-19">
+                                <div class="icon-plain-medium center icon"><span class="pe-7s-drop"></span></div>
+                                <br/>
+                                <h5 class="title font-weight-5 color-violet">Fully Responsive</h5>
+                                <p class="content">Vestibulum ante ipsum primis sit amet justo elit faucibus orci luctus ultrices posuere cubilia Curae.</p>
+                                <div class="clearfix"></div>
+                                <br/>
+                                <a class="read-more uppercase" href="#"><i class="fa fa-angle-right"></i> &nbsp; Read more</a> </div>
                         </div>
+                        <!--end item-->
+
+                        <div class="col-md-4" data-component="ContentSecond">
+                            <div class="ce-feature-box-19 primary">
+                                <div class="icon-plain-medium center icon"><span class="pe-7s-switch"></span></div>
+                                <br/>
+                                <h5 class="title font-weight-5 color-green">Classic Styles</h5>
+                                <p class="content">Vestibulum ante ipsum primis sit amet justo elit faucibus orci luctus ultrices posuere cubilia Curae.</p>
+                                <div class="clearfix"></div>
+                                <br/>
+                                <a class="read-more white uppercase" href="#"><i class="fa fa-angle-right"></i> &nbsp; Read more</a> </div>
+                        </div>
+                        <!--end item-->
+
+                        <div class="col-md-4" data-component="ContentThird">
+                            <div class="ce-feature-box-19">
+                                <div class="icon-plain-medium center icon"><span class="pe-7s-mouse"></span></div>
+                                <br/>
+                                <h5 class="title font-weight-5 color-violet">Secure Services</h5>
+                                <p class="content">Vestibulum ante ipsum primis sit amet justo elit faucibus orci luctus ultrices posuere cubilia Curae.</p>
+                                <div class="clearfix"></div>
+                                <br/>
+                                <a class="read-more uppercase" href="#"><i class="fa fa-angle-right"></i> &nbsp; Read more</a> </div>
+                        </div>
+                        <!--end item-->
+
                     </div>
-                </section>
-                <div class="clearfix"></div>
-                <!-- end section -->
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            <!-- end section -->
 
 
-                <div class="section-dark sec-padding">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-12 colmargin clearfix margin-bottom">
-                                <div class="fo-map">
-                                    <div class="footer-logo"><img src="images/logo/logo.png" alt="" /></div>
-                                    <p class="text-light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo </p>
-                                    <p class="text-light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo </p>
-                                </div>
+            <div class="section-dark sec-padding" data-component="FooterTop">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12 colmargin clearfix margin-bottom">
+                            <div class="fo-map">
+                                <div class="footer-logo"><img src="images/logo/logo.png" alt="" /></div>
+                                <p class="text-light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo </p>
+                                <p class="text-light">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo </p>
                             </div>
-                            <!--end item-->
+                        </div>
+                        <!--end item-->
 
-                            <div class="col-md-3 col-xs-12 clearfix margin-bottom">
-                                <h4 class="text-white less-mar3 font-weight-5">About Us</h4>
-                                <div class="clearfix"></div>
-                                <br/>
-                                <ul class="footer-quick-links-4 white">
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-                                </ul>
-                            </div>
-                            <!--end item-->
+                        <div class="col-md-3 col-xs-12 clearfix margin-bottom">
+                            <h4 class="text-white less-mar3 font-weight-5">About Us</h4>
+                            <div class="clearfix"></div>
+                            <br/>
+                            <ul class="footer-quick-links-4 white">
+                                <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+                            </ul>
+                        </div>
+                        <!--end item-->
 
-                            <div class="col-md-3 col-xs-12 clearfix margin-bottom">
-                                <h4 class="text-white less-mar3 font-weight-5">Quick Links</h4>
-                                <div class="clearfix"></div>
-                                <br/>
-                                <ul class="footer-quick-links-4 white">
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-                                </ul>
-                            </div>
-                            <!--end item-->
+                        <div class="col-md-3 col-xs-12 clearfix margin-bottom">
+                            <h4 class="text-white less-mar3 font-weight-5">Quick Links</h4>
+                            <div class="clearfix"></div>
+                            <br/>
+                            <ul class="footer-quick-links-4 white">
+                                <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+                            </ul>
+                        </div>
+                        <!--end item-->
 
-                            <div class="col-md-3 col-xs-12 clearfix margin-bottom">
-                                <h4 class="text-white less-mar3 font-weight-5">Contact Us</h4>
-                                <div class="clearfix"></div>
-                                <br/>
-                                <address class="text-light">
+                        <div class="col-md-3 col-xs-12 clearfix margin-bottom">
+                            <h4 class="text-white less-mar3 font-weight-5">Contact Us</h4>
+                            <div class="clearfix"></div>
+                            <br/>
+                            <address class="text-light">
             <strong class="text-white">Address:</strong> <br>
             No.28 - 63739 street lorem ipsum, <br>
             ipsum City, Country
             </address>
-                                <span class="text-light"><strong class="text-white">Phone:</strong> + 1 (234) 567 8901</span><br>
-                                <span class="text-light"><strong class="text-white">Email:</strong> email@example.com </span><br>
-                                <span class="text-light"><strong class="text-white">Fax:</strong> + 1 (234) 567 8901</span>
-                                <ul class="footer-social-icons white left-align icons-plain text-center">
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="active" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <!--end item-->
-
+                            <span class="text-light"><strong class="text-white">Phone:</strong> + 1 (234) 567 8901</span><br>
+                            <span class="text-light"><strong class="text-white">Email:</strong> email@example.com </span><br>
+                            <span class="text-light"><strong class="text-white">Fax:</strong> + 1 (234) 567 8901</span>
+                            <ul class="footer-social-icons white left-align icons-plain text-center" data-component="FooterSocialIcons">
+                                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="active" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
                         </div>
+                        <!--end item-->
+
                     </div>
                 </div>
-                <div class="clearfix"></div>
-                <!-- end section -->
-
-                <section class="sec-padding-6 section-medium-dark">
-                    <div class="container">
-                        <div class="row">
-                            <div class="fo-copyright-holder text-center"> Copyright © 2019 codelayers | All rights reserved. </div>
-                        </div>
-                    </div>
-                </section>
-                <div class="clearfix"></div>
-                <!-- end section -->
-
-                <a href="#" class="scrollup"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
-                <!-- end scroll to top of the page-->
-
             </div>
-            <!--end site wrapper-->
+            <div class="clearfix"></div>
+            <!-- end section -->
+
+            <section class="sec-padding-6 section-medium-dark" data-component="FooterDown">
+                <div class="container">
+                    <div class="row">
+                        <div class="fo-copyright-holder text-center"> Copyright © 2019 codelayers | All rights reserved. </div>
+                    </div>
+                </div>
+            </section>
+            <div class="clearfix"></div>
+            <!-- end section -->
+
+            <a href="#" class="scrollup"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+            <!-- end scroll to top of the page-->
+
         </div>
-        <!--end wrapper boxed-->
+        <!--end site wrapper-->
+    </div>
+    <!--end wrapper boxed-->
 
-        <!-- Scripts -->
-        <script src="js/jquery/jquery.js"></script>
-        <script src="js/bootstrap/bootstrap.min.js"></script>
-        <script src="js/style-customizer/js/spectrum.js"></script>
-        <script src="js/less/less.min.js" data-env="development"></script>
-        <script src="js/style-customizer/js/style-customizer.js"></script>
-        <!-- Scripts END -->
+    <!-- Scripts -->
+    <script src="js/jquery/jquery.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/style-customizer/js/spectrum.js"></script>
+    <script src="js/less/less.min.js" data-env="development"></script>
+    <script src="js/style-customizer/js/style-customizer.js"></script>
+    <!-- Scripts END -->
 
-        <!-- Template scripts -->
-        <script src="js/megamenu/js/main.js"></script>
-        <script type="text/javascript" src="js/ytplayer/jquery.mb.YTPlayer.js"></script>
-        <script type="text/javascript" src="js/ytplayer/elementvideo-custom.js"></script>
-        <script type="text/javascript" src="js/ytplayer/play-pause-btn.js"></script>
-        <!-- REVOLUTION JS FILES -->
-        <script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
-        <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+    <!-- Template scripts -->
+    <script src="js/megamenu/js/main.js"></script>
+    <script type="text/javascript" src="js/ytplayer/jquery.mb.YTPlayer.js"></script>
+    <script type="text/javascript" src="js/ytplayer/elementvideo-custom.js"></script>
+    <script type="text/javascript" src="js/ytplayer/play-pause-btn.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
 (Load Extensions only on Local File Systems ! 
 The following part can be removed on Server for On Demand Loading) -->
-        <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
-        <script type="text/javascript">
-            var tpj = jQuery;
-            var revapi4;
-            tpj(document).ready(function() {
-                if (tpj("#rev_slider").revolution == undefined) {
-                    revslider_showDoubleJqueryError("#rev_slider");
-                } else {
-                    revapi4 = tpj("#rev_slider").show().revolution({
-                        sliderType: "standard",
-                        jsFileLocation: "js/revolution-slider/js/",
-                        sliderLayout: "auto",
-                        dottedOverlay: "none",
-                        delay: 9000,
-                        navigation: {
-                            keyboardNavigation: "off",
-                            keyboard_direction: "horizontal",
-                            mouseScrollNavigation: "off",
-                            onHoverStop: "off",
-                            arrows: {
-                                style: "uranus",
-                                enable: true,
-                                hide_onmobile: false,
-                                hide_under: 100,
-                                hide_onleave: true,
-                                hide_delay: 200,
-                                hide_delay_mobile: 1200,
-                                tmp: '',
-                                left: {
-                                    h_align: "left",
-                                    v_align: "center",
-                                    h_offset: 80,
-                                    v_offset: 0
-                                },
-                                right: {
-                                    h_align: "right",
-                                    v_align: "center",
-                                    h_offset: 80,
-                                    v_offset: 0
-                                }
-                            },
-                            touch: {
-                                touchenabled: "on",
-                                swipe_threshold: 75,
-                                swipe_min_touches: 1,
-                                swipe_direction: "horizontal",
-                                drag_block_vertical: false
-                            },
-
-
-
-                        },
-                        viewPort: {
+    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript">
+        var tpj = jQuery;
+        var revapi4;
+        tpj(document).ready(function() {
+            if (tpj("#rev_slider").revolution == undefined) {
+                revslider_showDoubleJqueryError("#rev_slider");
+            } else {
+                revapi4 = tpj("#rev_slider").show().revolution({
+                    sliderType: "standard",
+                    jsFileLocation: "js/revolution-slider/js/",
+                    sliderLayout: "auto",
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    navigation: {
+                        keyboardNavigation: "off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        onHoverStop: "off",
+                        arrows: {
+                            style: "uranus",
                             enable: true,
-                            outof: "pause",
-                            visible_area: "80%"
+                            hide_onmobile: false,
+                            hide_under: 100,
+                            hide_onleave: true,
+                            hide_delay: 200,
+                            hide_delay_mobile: 1200,
+                            tmp: '',
+                            left: {
+                                h_align: "left",
+                                v_align: "center",
+                                h_offset: 80,
+                                v_offset: 0
+                            },
+                            right: {
+                                h_align: "right",
+                                v_align: "center",
+                                h_offset: 80,
+                                v_offset: 0
+                            }
+                        },
+                        touch: {
+                            touchenabled: "on",
+                            swipe_threshold: 75,
+                            swipe_min_touches: 1,
+                            swipe_direction: "horizontal",
+                            drag_block_vertical: false
                         },
 
-                        responsiveLevels: [1240, 1024, 778, 480],
-                        gridwidth: [1240, 1024, 778, 480],
-                        gridheight: [850, 730, 600, 550],
-                        lazyType: "smart",
-                        parallax: {
-                            type: "mouse",
-                            origo: "slidercenter",
-                            speed: 2000,
-                            levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
-                        },
-                        shadow: 0,
-                        spinner: "off",
-                        stopLoop: "off",
-                        stopAfterLoops: -1,
-                        stopAtSlide: -1,
-                        shuffle: "off",
-                        autoHeight: "off",
-                        hideThumbsOnMobile: "off",
-                        hideSliderAtLimit: 0,
-                        hideCaptionAtLimit: 0,
-                        hideAllCaptionAtLilmit: 0,
-                        disableProgressBar: "on",
-                        debugMode: false,
-                        fallbacks: {
-                            simplifyAll: "off",
-                            nextSlideOnWindowFocus: "off",
-                            disableFocusListener: false,
-                        }
-                    });
-                }
-            }); /*ready*/
-        </script>
-        <script type="text/javascript">
-            var tpj = jQuery;
 
-            var revapi280;
-            tpj(document).ready(function() {
-                if (tpj("#rev_slider_280_1").revolution == undefined) {
-                    revslider_showDoubleJqueryError("#rev_slider_280_1");
-                } else {
-                    revapi280 = tpj("#rev_slider_280_1").show().revolution({
-                        sliderType: "hero",
-                        jsFileLocation: "../../revolution/js/",
-                        sliderLayout: "auto",
-                        dottedOverlay: "none",
-                        delay: 9000,
-                        navigation: {},
-                        responsiveLevels: [1240, 1024, 778, 480],
-                        visibilityLevels: [1240, 1024, 778, 480],
-                        gridwidth: [1000, 1024, 778, 480],
-                        gridheight: [700, 520, 420, 420],
-                        lazyType: "none",
-                        parallax: {
-                            type: "scroll",
-                            origo: "slidercenter",
-                            speed: 1000,
-                            levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
-                            type: "scroll",
-                        },
-                        shadow: 0,
-                        spinner: "spinner2",
-                        autoHeight: "off",
-                        fullScreenAutoWidth: "off",
-                        fullScreenAlignForce: "off",
-                        fullScreenOffsetContainer: "",
-                        fullScreenOffset: "60",
-                        disableProgressBar: "on",
-                        hideThumbsOnMobile: "off",
-                        hideSliderAtLimit: 0,
-                        hideCaptionAtLimit: 0,
-                        hideAllCaptionAtLilmit: 0,
-                        debugMode: false,
-                        fallbacks: {
-                            simplifyAll: "off",
-                            disableFocusListener: false,
-                        }
-                    });
-                }
-            }); /*ready*/
-        </script>
-        <script>
-            $(window).load(function() {
-                setTimeout(function() {
 
-                    $('.loader-live').fadeOut();
-                }, 1000);
-            })
-        </script>
-        <script src="js/parallax/parallax-background.min.js"></script>
-        <script>
-            (function($) {
-                $('.parallax').parallaxBackground();
-            })(jQuery);
-        </script>
-        <script src="js/tabs/js/responsive-tabs.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="js/cubeportfolio/jquery.cubeportfolio.min.js"></script>
-        <script type="text/javascript" src="js/cubeportfolio/main-mosaic3-cols3.js"></script>
-        <script src="js/owl-carousel/owl.carousel.js"></script>
-        <script src="js/owl-carousel/custom.js"></script>
-        <script src="js/owl-carousel/owl.carousel.js"></script>
-        <script src="js/accordion/js/smk-accordion.js"></script>
-        <script src="js/accordion/js/custom.js"></script>
-        <script src="js/progress-circle/raphael-min.js"></script>
-        <script src="js/progress-circle/custom.js"></script>
-        <script src="js/progress-circle/jQuery.circleProgressBar.js"></script>
-        <script src="js/functions/functions.js"></script>
+                    },
+                    viewPort: {
+                        enable: true,
+                        outof: "pause",
+                        visible_area: "80%"
+                    },
+
+                    responsiveLevels: [1240, 1024, 778, 480],
+                    gridwidth: [1240, 1024, 778, 480],
+                    gridheight: [850, 730, 600, 550],
+                    lazyType: "smart",
+                    parallax: {
+                        type: "mouse",
+                        origo: "slidercenter",
+                        speed: 2000,
+                        levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
+                    },
+                    shadow: 0,
+                    spinner: "off",
+                    stopLoop: "off",
+                    stopAfterLoops: -1,
+                    stopAtSlide: -1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    disableProgressBar: "on",
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+        }); /*ready*/
+    </script>
+    <script type="text/javascript">
+        var tpj = jQuery;
+
+        var revapi280;
+        tpj(document).ready(function() {
+            if (tpj("#rev_slider_280_1").revolution == undefined) {
+                revslider_showDoubleJqueryError("#rev_slider_280_1");
+            } else {
+                revapi280 = tpj("#rev_slider_280_1").show().revolution({
+                    sliderType: "hero",
+                    jsFileLocation: "../../revolution/js/",
+                    sliderLayout: "auto",
+                    dottedOverlay: "none",
+                    delay: 9000,
+                    navigation: {},
+                    responsiveLevels: [1240, 1024, 778, 480],
+                    visibilityLevels: [1240, 1024, 778, 480],
+                    gridwidth: [1000, 1024, 778, 480],
+                    gridheight: [700, 520, 420, 420],
+                    lazyType: "none",
+                    parallax: {
+                        type: "scroll",
+                        origo: "slidercenter",
+                        speed: 1000,
+                        levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
+                        type: "scroll",
+                    },
+                    shadow: 0,
+                    spinner: "spinner2",
+                    autoHeight: "off",
+                    fullScreenAutoWidth: "off",
+                    fullScreenAlignForce: "off",
+                    fullScreenOffsetContainer: "",
+                    fullScreenOffset: "60",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+        }); /*ready*/
+    </script>
+    <script>
+        $(window).load(function() {
+            setTimeout(function() {
+
+                $('.loader-live').fadeOut();
+            }, 1000);
+        })
+    </script>
+    <script src="js/parallax/parallax-background.min.js"></script>
+    <script>
+        (function($) {
+            $('.parallax').parallaxBackground();
+        })(jQuery);
+    </script>
+    <script src="js/tabs/js/responsive-tabs.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/cubeportfolio/jquery.cubeportfolio.min.js"></script>
+    <script type="text/javascript" src="js/cubeportfolio/main-mosaic3-cols3.js"></script>
+    <script src="js/owl-carousel/owl.carousel.js"></script>
+    <script src="js/owl-carousel/custom.js"></script>
+    <script src="js/owl-carousel/owl.carousel.js"></script>
+    <script src="js/accordion/js/smk-accordion.js"></script>
+    <script src="js/accordion/js/custom.js"></script>
+    <script src="js/progress-circle/raphael-min.js"></script>
+    <script src="js/progress-circle/custom.js"></script>
+    <script src="js/progress-circle/jQuery.circleProgressBar.js"></script>
+    <script src="js/functions/functions.js"></script>
 </body>
 
 </html>
