@@ -3,3 +3,11 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 30px 30px;
 }
+
+.color-violet {
+    color: #4F0A75 !important;
+}
+
+.color-green {
+    color: #b1f036 !important;
+}
