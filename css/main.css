@@ -11,3 +11,80 @@
 .color-green {
     color: #b1f036 !important;
 }
+
+.header-section.header-color.style1 {
+    background: rgba(2, 2, 3, 0.8);
+}
+
+.slidermaxwidth.car-detail .rev_slider {
+    height: 500px !important;
+    border-radius: 5px;
+}
+
+.slidermaxwidth.car-detail .rev_slider_wrapper {
+    height: 500px !important;
+}
+
+.details-car {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.details-car-item {
+    background-color: #4F0A75;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.details-car-item-title {
+    color: #b1f036;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.details-car-item-text {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.title-details-car {
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+
+.details-number {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.details-number-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.details-number-item-title h3 {
+    margin-bottom: 0px;
+    color: #4F0A75;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.details-number-item-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin-left: 15px;
+}

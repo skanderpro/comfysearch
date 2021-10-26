@@ -183,10 +183,6 @@ option {
 
 /* line 56, ../sass/screen.scss */
 
-.header-section ul li.active>a {
-    color: #f51e46;
-}
-
 
 /* line 60, ../sass/screen.scss */
 
@@ -966,10 +962,6 @@ option {
         border: none !important;
     }
     /* line 598, ../sass/screen.scss */
-    .header-section ul li:hover>a,
-    .header-section ul li.active>a {
-        color: #f51e46;
-    }
     .header-section ul li ul li {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
