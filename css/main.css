@@ -88,3 +88,67 @@
     color: #000;
     margin-left: 15px;
 }
+
+.ce-feature-box-6 .main-box .img-box .overlay .sc-icons {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ce-feature-box-6:hover .main-box .img-box .overlay .sc-icons {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ce-feature-box-6:hover .main-box .img-box .overlay .sc-icons li+li {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .details-car-item {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .car-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .details-number {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .details-car {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .car-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .details-number {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .details-number {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .details-car {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .car-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
